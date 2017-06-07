@@ -1,7 +1,7 @@
 $(document).ready(function() {
   console.log('JS, JQ');
   getCustomers();
-  $('#customerList').on('click', '#getOrders', getOrders);
+  $('#customerList').on('click', '.getOrdersButton', getOrders);
 
 }) // end onReady
 
